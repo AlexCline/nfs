@@ -1,0 +1,8 @@
+name    'AlexCline-nfs'
+version '0.0.1'
+author 'Alex Cline <alex.cline@gmail.com>'
+license 'Apache License, Version 2.0'
+summary 'This module configures NFS mounts on linux systems.'
+description 'This module configures NFS mounts on linux systems.'
+project_page 'https://github.com/AlexCline/nfs'
+dependency 'AlexCline/dirtree', '>= 0.1.1'
