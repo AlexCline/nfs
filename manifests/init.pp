@@ -5,7 +5,8 @@ define nfs (
   $source,
   $dest,
   $type = 'nfs',
-  $opts = 'defaults,noatime') {
+  $opts = 'nofail,defaults,noatime',
+  $ensure = 'present') {
 
   case $::operatingsystem {
     'RedHat', 'CentOS': {
