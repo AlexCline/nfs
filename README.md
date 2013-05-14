@@ -25,6 +25,11 @@ The NFS module can be instantiated using the following definitions:
 
 The default opts defined for a mount are `nofail,defaults,noatime`.
 
+To Do
+-----
+
+Code ensure => present/absent
+
 Support
 -------
 
